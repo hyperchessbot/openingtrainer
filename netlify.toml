@@ -1,0 +1,6 @@
+[build]
+  command = "yarn generate"
+  functions = "netlify/functions"
+  publish = "/dist"
+[build.environment]
+  NODE_VERSION = "14"
